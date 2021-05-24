@@ -36,7 +36,7 @@ function input(model) {
     const message3 = "From? "
     const message4 = "To?"
 
-    const choices = ["Celsius", "Farenheit", "Kelvin"]
+    const choices = ["Celsius", "Fahrenheit", "Kelvin"]
 
     return inquirer.prompt([
         {
